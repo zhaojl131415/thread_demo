@@ -2,7 +2,7 @@ package com.thread.demo.thread;
 
 class MyRunnable implements Runnable {
 
-    private int ticketsCount = 5; // 一共有500张票
+    private int ticketsCount = 50; // 一共有500张票
 
     @Override
     public void run() {

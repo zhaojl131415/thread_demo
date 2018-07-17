@@ -6,6 +6,7 @@ class MyThread extends Thread {
     private String name; //售票点, 也就是线程的名字
 
     public MyThread(String name) {
+//        super(name);
         this.name = name;
     }
 
