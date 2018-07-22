@@ -14,11 +14,11 @@ class MyThread extends Thread {
     public void run() {
         while (ticketsCount > 0) {
             ticketsCount--; // 有票就接着卖一张
-            System.out.println(name + "卖了一张票, 剩余票数为:" +ticketsCount);
+            System.out.println(name + "卖了一张票, 剩余票数为:" + ticketsCount);
         }
     }
 }
-
+ 
 public class TicketsThread {
 
     public static void main(String[] args) {
